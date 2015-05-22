@@ -1,0 +1,12 @@
+<?php require_once 'parts/class/navigation_button.php';?>
+<div class="navigation navigation_font">
+    <?php echo (new Navigation_button("index"))->create_button(); ?>
+    <span class="space_block"></span>
+    <?php echo (new Navigation_button("movies"))->create_button(); ?>
+    <span class="space_block"></span>
+    <?php echo (new Navigation_button("book"))->create_button(); ?>
+    <span class="space_block"></span>
+    <?php echo (new Navigation_button("cart"))->create_button(); ?>
+    <span class="space_block"></span>
+    <?php echo (new Navigation_button("contact"))->create_button(); ?>
+</div>
